@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--캘린더 구조-->
+    <div class="sec_cal">
+        <!--이전달, 다음달 버튼 생성-->
+        <div class="cal_nav">
+            <!--이전달 버튼-->
+            <a href="javascript:;" class="nav-btn go-prev">prev</a> 
+        </div>
+        <!--화면에 뿌려지는 날짜-->
+        <div class="year-month"></div>
+        <!--다음달 버튼-->
+        <a href="javascript:;" class="nav-btn go-next">next</a>
+    </div>
+    <!--요일과 날짜 뿌려질 공간-->
+    <div class="cal_wrap">
+        <!--요일 생성-->
+        <!--요일 뿌려질 공간-->
+        <div class="days">
+            <div class="day">Mon</div>
+            <div class="day">Tue</div>
+            <div class="day">Wed</div>
+            <div class="day">Thu</div>
+            <div class="day">Fri</div>
+            <div class="day">Sat</div>
+            <div class="day">Sun</div>
+        </div>
+        <!--날짜 생성-->
+        <!--날짜 뿌려질 공간-->
+        <div class="dates"></div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="calendar.js"></script>
+</html>
